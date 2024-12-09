@@ -1,0 +1,9 @@
+<ModMetaData>
+    <name>Farming on the Rim</name>
+<description>This mod expands on the farming system, incorporating fertilizer, weather patterns, and consequences for poor farming technique.</description>
+    <author>LeeahPeles</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>leeahpeles.farmingontherim</packageId>
+</ModMetaData>

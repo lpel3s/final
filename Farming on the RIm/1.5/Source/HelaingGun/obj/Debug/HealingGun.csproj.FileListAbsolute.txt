@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\1.5\Assemblies\HealingGun.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\1.5\Source\HelaingGun\obj\Debug\HealingGun.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\1.5\Source\HelaingGun\obj\Debug\HealingGun.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\1.5\Source\HelaingGun\obj\Debug\HealingGun.dll
