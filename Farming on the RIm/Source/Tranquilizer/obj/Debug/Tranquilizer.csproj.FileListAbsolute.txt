@@ -1,0 +1,4 @@
+C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Assemblies\LAP.dll
+C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.AssemblyReference.cache
+C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.CoreCompileInputs.cache
+C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\LAP.dll

@@ -86,7 +86,7 @@
       <sowTags>
         <li>Ground</li>
       </sowTags>
-      <sowResearchPrerequisites Inherit="False">
+      <sowResearchPrerequisites>
         <li>DrugProduction</li>
       </sowResearchPrerequisites>
       <topWindExposure>0.15</topWindExposure>
@@ -451,49 +451,94 @@
       <humanFoodPlant>true</humanFoodPlant>
     </plant>
   </ThingDef>
-    <ThingDef ParentName ="MakeableDrugBase">
-		<defName>NanoLimb</defName>
-		<label>nanolimb</label>
-		<description>When taken, this medicine will grow back a missing limb using nano technology.</description>
-	    <graphicData>
-             <texPath>Things/Item/Resource/Medicine/MedicineIndustrial</texPath>
-              <graphicClass>Graphic_StackCount</graphicClass>
-              <drawSize>0.85</drawSize>
-        </graphicData>
+	<ThingDef Class ="LAP.ThingDef_TranquilizingBullet" ParentName="BaseBullet">
+		<defName>Bullet_TranquilizingGun</defName>
+		<label>tranquilizing bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+		<thingClass>LAP.Projectile_TranquilizingBullet</thingClass>
+		<HediffToAdd>CatatonicBreakdown</HediffToAdd>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_TranquilizerGun</defName>
+		<label>tranquilizer gun</label>
+		<description>A gun that causes its target to become unable to function.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponClasses>
+			<li>LongShots</li>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<displayPriority>425</displayPriority>
+		</recipeMaker>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
 		<statBases>
-			<WorkToMake>3000</WorkToMake>
-			<MarketValue>100</MarketValue>
-			<Mass>0.01</Mass>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.86</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Neutroamine>10</Neutroamine>
-			<Plasteel>25</Plasteel>
+			<Steel>60</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<Neutroamine>2</Neutroamine>
 		</costList>
-		<ingestible>
-			<foodType>Processed</foodType>
-			<drugCategory>Medical</drugCategory>
-			<baseIngestTicks>150</baseIngestTicks>
-			<chairSearchRadius>4</chairSearchRadius>
-			<nurseable>true</nurseable>
-					<outcomeDoers>
-				<li Class="LAP.IngestionOutcomeDoer_RemoveHediff">
-					<removeThisThing>MissingBodyPart</removeThisThing>
-				</li>
-			</outcomeDoers>
-
-		</ingestible>
-		<comps>
-			<li Class ="CompProperties_Drug">
-				<listOrder>1030</listOrder>
-			
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_TranquilizingGun</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>44.9</range>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
-		</comps>
-		<recipeMaker>
-			<researchPrerequisite>Prosthetics</researchPrerequisite>
-			<recipeUsers>
-				<li>DrugLab</li>
-			</recipeUsers>
-			<soundWorking>Recipe_Drug</soundWorking>
-		</recipeMaker>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags Inherit="False">
+			<li>SniperRifle</li>
+		</weaponTags>
 	</ThingDef>
 </Defs>
