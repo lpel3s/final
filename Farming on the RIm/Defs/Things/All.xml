@@ -451,4 +451,49 @@
       <humanFoodPlant>true</humanFoodPlant>
     </plant>
   </ThingDef>
+    <ThingDef ParentName ="MakeableDrugBase">
+		<defName>NanoLimb</defName>
+		<label>nanolimb</label>
+		<description>When taken, this medicine will grow back a missing limb using nano technology.</description>
+	    <graphicData>
+             <texPath>Things/Item/Resource/Medicine/MedicineIndustrial</texPath>
+              <graphicClass>Graphic_StackCount</graphicClass>
+              <drawSize>0.85</drawSize>
+        </graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MarketValue>100</MarketValue>
+			<Mass>0.01</Mass>
+		</statBases>
+		<costList>
+			<Neutroamine>10</Neutroamine>
+			<Plasteel>25</Plasteel>
+		</costList>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<drugCategory>Medical</drugCategory>
+			<baseIngestTicks>150</baseIngestTicks>
+			<chairSearchRadius>4</chairSearchRadius>
+			<nurseable>true</nurseable>
+					<outcomeDoers>
+				<li Class="LAP.IngestionOutcomeDoer_RemoveHediff">
+					<removeThisThing>MissingBodyPart</removeThisThing>
+				</li>
+			</outcomeDoers>
+
+		</ingestible>
+		<comps>
+			<li Class ="CompProperties_Drug">
+				<listOrder>1030</listOrder>
+			
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Prosthetics</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+	</ThingDef>
 </Defs>
