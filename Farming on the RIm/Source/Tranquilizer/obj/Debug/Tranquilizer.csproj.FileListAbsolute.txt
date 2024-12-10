@@ -2,3 +2,7 @@ C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Assemblies\LAP.dll
 C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.AssemblyReference.cache
 C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.CoreCompileInputs.cache
 C:\Users\somet\Documents\GitHub\final\Farming on the RIm\Source\Tranquilizer\obj\Debug\LAP.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\Assemblies\LAP.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\Source\Tranquilizer\obj\Debug\Tranquilizer.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Farming on the RIm\Source\Tranquilizer\obj\Debug\LAP.dll
