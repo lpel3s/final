@@ -1,6 +1,6 @@
 There were some issues that I encountered when making this mod. For some reason, whenever I put 
 certain xml code into the code, it would completely break the mod. I don't even know how I fixed it,
-it just randomely started working. I had to figure out how to do c# coding, which is pretty different
+it just randomly started working. I had to figure out how to do c# coding, which is pretty different
 from python. I also had to follow out of date tutorials. I also do not know how to make graphics, I 
-am not an artist. In my textures folder, you can see some of my attempts. Overall, I could not be a 
+am not an artist. In my textures folder, you can see some of my attempts. I couldn't do some of my original ideas, so I pivoted and made new things. Overall, I could not be a 
 game developer.
