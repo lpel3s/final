@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\",
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\farming on the rim\\source\\helainggun\\thingdef_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\farming on the rim\\source\\healing gun\\thingdef_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|solutionrelative:thingdef_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\farming on the rim\\source\\helainggun\\projectile_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\projectile_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|solutionrelative:projectile_healingbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,9 +18,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HealingGun||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C261C574-23B4-4AB4-BCE1-048EB9E63285}|HealingGun.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\farming on the rim\\source\\helainggun\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +27,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -42,16 +43,15 @@
               "RelativeToolTip": "..\\..\\..\\..\\Data\\Core\\Defs\\ThingDefs_Items\\Items_Exotic.xml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-09T03:25:20.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T03:25:20.503Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ThingDef_HealingBullet.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\ThingDef_HealingBullet.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\ThingDef_HealingBullet.cs",
               "RelativeDocumentMoniker": "ThingDef_HealingBullet.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\ThingDef_HealingBullet.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\ThingDef_HealingBullet.cs",
               "RelativeToolTip": "ThingDef_HealingBullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,26 +62,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HealingGun",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\HealingGun.csproj",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\HealingGun.csproj",
               "RelativeDocumentMoniker": "HealingGun.csproj",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\HealingGun.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\HealingGun.csproj",
               "RelativeToolTip": "HealingGun.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-06T08:20:11.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:20:11.234Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Projectile_HealingBullet.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\Projectile_HealingBullet.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\Projectile_HealingBullet.cs",
               "RelativeDocumentMoniker": "Projectile_HealingBullet.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\HelaingGun\\Projectile_HealingBullet.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Farming on the RIm\\Source\\Healing Gun\\Projectile_HealingBullet.cs",
               "RelativeToolTip": "Projectile_HealingBullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:26:51.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:26:51.541Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Data\\Core\\Defs\\HediffDefs\\Hediffs_Local_Injuries.xml",
               "ViewState": "AgIAADgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-09T05:06:19.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T05:06:19.688Z"
             }
           ]
         }

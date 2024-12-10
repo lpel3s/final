@@ -428,9 +428,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>14</pathCost>
-	  <sowResearchPrerequisites Inherit="False">
-		  <li>DrugProduction</li>
-	  </sowResearchPrerequisites>
     <ingestible />
     <plant>
       <immatureGraphicPath>Things/Plant/Ambrosia_Immature</immatureGraphicPath>
@@ -439,6 +436,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Toxifruit</harvestedThingDef>
       <harvestYield>5</harvestYield>
+		<sowMinSkill>16</sowMinSkill>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -465,13 +463,13 @@
 			<speed>55</speed>
 		</projectile>
 		<thingClass>LAP.Projectile_TranquilizingBullet</thingClass>
-		<HediffToAdd>CatatonicBreakdown</HediffToAdd>
+		<HediffToAdd>Anesthetic</HediffToAdd>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Gun_TranquilizerGun</defName>
 		<label>tranquilizer gun</label>
-		<description>A gun that causes its target to become unable to function.</description>
+		<description>A gun that causes its target to fall unconscious.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
@@ -537,8 +535,5 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
-		<weaponTags Inherit="False">
-			<li>SniperRifle</li>
-		</weaponTags>
 	</ThingDef>
 </Defs>

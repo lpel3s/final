@@ -11,18 +11,19 @@ namespace LAP
     public class Projectile_TranquilizingBullet : Bullet
     {
         public ThingDef_TranquilizingBullet Def
-        { get
+        { 
+            get
             {
                 return this.def as ThingDef_TranquilizingBullet;
             }
         }
-    protected override void Impact(Thing hitThing, bool blockedByShield = false)
+            protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             base.Impact(hitThing, blockedByShield);
-            if (Def != null && hitThing is Pawn hitpawn && hitThing != null)
+            if (hitThing != null && hitThing is Pawn hitpawn)
             {
                 var catatonicpawn = hitpawn?.health?.hediffSet?.GetFirstHediffOfDef(Def.HediffToAdd);
-                if (catatonicpawn != null)
+                if (catatonicpawn == null)
                 {
                     Hediff hediff = HediffMaker.MakeHediff(Def.HediffToAdd, hitpawn, null);
                     hitpawn.health.AddHediff(hediff, null, null);

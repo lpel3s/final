@@ -11,6 +11,6 @@ namespace LAP
     public class ThingDef_TranquilizingBullet : ThingDef
 
     {
-        public HediffDef HediffToAdd = HediffDefOf.CatatonicBreakdown;
+        public HediffDef HediffToAdd = HediffDefOf.Anesthetic;
     }
 }
