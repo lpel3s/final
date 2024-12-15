@@ -101,57 +101,6 @@
     </plant> 
   </ThingDef>
 	****took inspiration from make a mod from scratch euphorium drug tutorial
-	<TerrainDef Name="New_TerrainBase" Abstract="True">
-		<edgeType>FadeRough</edgeType>
-		<renderPrecedence>335</renderPrecedence>
-		<designationCategory>Floors</designationCategory>
-		<constructEffect>ConstructDirt</constructEffect>
-		<affordances>
-			<li>Light</li>
-			<li>Medium</li>
-			<li>Heavy</li>
-			<li>GrowSoil</li>
-			<li>Diggable</li>
-		</affordances>
-		<generatedFilth>Filth_Dirt</generatedFilth>
-		<filthAcceptanceMask>
-			<li>Unnatural</li>
-		</filthAcceptanceMask>
-		<takeFootprints>True</takeFootprints>
-		<tools>
-			<li>
-				<label>dirt</label>
-				<capacities>
-					<li>KickMaterialInEyes</li>
-				</capacities>
-				<hediff>DirtInEyes</hediff>
-				<cooldownTime>1.5</cooldownTime>
-			</li>
-		</tools>
-	</TerrainDef>
-
-	<TerrainDef ParentName="New_TerrainBase" Name="FertilizedSoil">
-		<defName>FertilizedSoil</defName>
-		<label>fertilized soil</label>
-		<description>A mixture of fertilizer and soil.</description>
-		<texturePath>Terrain/Surfaces/SoilRich</texturePath>
-		<pathCost>5</pathCost>
-		<layerable>true</layerable>
-		<statBases>
-			<Beauty>0</Beauty>
-			<WorkToBuild>85</WorkToBuild>
-		</statBases>
-		<fertility>10.0</fertility>
-		<avoidWander>true</avoidWander>
-		<costList>
-			<WoodLog>10</WoodLog>
-			<Hay>15</Hay>
-			<Neutroamine>2</Neutroamine>
-		</costList>
-		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
-	</TerrainDef>
-	****took inspo from Tilled Soil mod by Sam_ for making a new terrainbase
-	
     <ThingDef Class ="LP.ThingDef_HealingBullet" ParentName="BaseBullet">
     <defName>Bullet_HealingGun</defName>
     <label>healing bullet</label>
